@@ -3,7 +3,7 @@ INCLUDE_RL = -I/goinfre/moel-amr/homebrew/opt/readline/include
 NAME = minishell
 NAME_BONUS = minishell_bonus
 CC = cc 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = #-Wall -Wextra -Werror
 
 SRC =	str_utils/ft_split.c \
 		str_utils/ft_strchr.c \
